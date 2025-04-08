@@ -15,6 +15,9 @@ Entries should include a reference to the pull request that introduced the chang
 
 - [FEATURE] Added support for the rules sidecar in the ruler pods in distributed mode
 - [BUGFIX] Ensure global.extraEnv and global.extraEnvFrom applied to all resources consistently ([#16828](https://github.com/grafana/loki/pull/16828))
+## 6.29.1
+
+- [BUGFIX] Add livenessProbe to read pod to go around the issue mentioned [here](https://github.com/grafana/loki/issues/15191#issuecomment-2769843275)
 
 ## 6.29.0
 
