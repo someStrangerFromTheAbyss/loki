@@ -4,8 +4,8 @@ description: Helm chart for Grafana Loki and Grafana Enterprise Logs supporting 
 type: application
 appVersion: 3.5.0
 version: 6.30.0
-home: https://grafana.github.io/helm-charts
 sources:
+  - https://gitlab-ncsa.ubisoft.org/COPS/central-ops-monitoring/Rancher/catalog/lm/chart-loki
   - https://github.com/grafana/loki
   - https://grafana.com/oss/loki/
   - https://grafana.com/docs/loki/latest/
@@ -27,5 +27,5 @@ dependencies:
     version: 0.28.0
     condition: rollout_operator.enabled
 maintainers:
-  - name: trevorwhitney
-  - name: jeschkies
+- email: World-GNS-Monitoring-Core@ubisoft.com
+  name: GNS Monitoring
